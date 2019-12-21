@@ -9,17 +9,24 @@ import javax.swing.JOptionPane;
 
 public class Validation {
 	public static void main(String[] args) {
+		for(int i = 0; i < 10; i++) {
 		
-		Random randomMaker = new Random();
+			Random randomMaker = new Random();
 		
 		int randomNumber = randomMaker.nextInt(5);
 		
-		System.out.println(randomNumber);
-
-		// 1. Use each value of randomNumber to give the user a random compliment.
-
-		// 2. Repeat all the code above 10 times
+		if(randomNumber == 1) {
+			System.out.println("Thank's for the cheking my code!! :)");
+			
+		}else if(randomNumber == 2) {
+		 System.out.println("You are awsome!!");
 		
-		// 3. Find someone to test out your program. They will like it :)
+		
+	}else if (randomNumber == 3) {
+		System.out.println("Good job!!");
+	}else if(randomNumber == 4) {
+		System.out.println("Don't worry be happy!! :)");
+	}else {
+		System.out.println("Have a nice day.");
 	}
-}
+		}}}
