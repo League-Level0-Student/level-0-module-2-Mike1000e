@@ -1,9 +1,4 @@
-void draw() {
 
-/* Use the method below to put moles in the holes. */
-
-
-}
 
 void drawMole(int moleX, int moleY) {
      noStroke();
@@ -26,4 +21,12 @@ void setup() {
      ellipse(70, 119, 100, 30);
      ellipse(300, 60, 100, 30);
      ellipse(297, 350, 100, 30);
+   
 }
+ void draw(){
+   drawMole(60,100);
+   drawMole(300,70);
+   drawMole(200,200);
+   drawMole(300,350);
+   
+ }
